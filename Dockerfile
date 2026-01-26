@@ -1,11 +1,11 @@
-# Use a stable Temurin JDK
-FROM eclipse-temurin:17-jdk-slim
+# Use a valid Eclipse Temurin JDK
+FROM eclipse-temurin:17-jdk
 
 # Set working directory inside container
 WORKDIR /usr/app
 
 # Copy the built JAR into the container and rename to app.jar
-COPY target/inteelijtesting-0.0.1-SNAPSHOT.jar app.jar
+COPY target/demo-app.jar app.jar
 
 # Expose the port your Spring Boot app uses
 EXPOSE 8080
