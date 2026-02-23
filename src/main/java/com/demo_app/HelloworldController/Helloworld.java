@@ -10,6 +10,10 @@ public class Helloworld {
 
     @GetMapping("/message")
     public String getMessage() {
-        return "hello-world akash for the pankaj sir academy banglaru for placements";
+        return "hello-world akash for the pankaj sir academy banglaru for placements the ";
+    }
+     @GetMapping("/message1")
+    public String getMessage1() {
+        return "Message for the Merge Conflict";
     }
 }
