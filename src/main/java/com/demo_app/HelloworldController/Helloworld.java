@@ -13,7 +13,7 @@ public class Helloworld {
         return "hello-world akash for the pankaj sir academy banglaru for placements the ";
     }
      @GetMapping("/message1")
-    public String getMessage1() {
+    public String getMessage12() {
         return "Message for the Merge Conflict";
     }
 }
