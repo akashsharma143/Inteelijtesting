@@ -14,6 +14,11 @@ public class Helloworld {
     public String getMessage() {
         return "hello-world akash for the pankaj sir academy banglaru for placements the ";
     }
+     @GetMapping("/message3")
+    public String getMessage13() {
+        return "aman conflicts";
+    }
+}
      @GetMapping("/message1")
     public String getMessage12() {
         return "akash Conflict";
