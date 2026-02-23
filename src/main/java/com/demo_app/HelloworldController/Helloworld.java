@@ -1,3 +1,5 @@
+
+
 package com.demo_app.HelloworldController;
 
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,6 +16,6 @@ public class Helloworld {
     }
      @GetMapping("/message1")
     public String getMessage12() {
-        return "akash Conflict";
+        return "message";
     }
 }
