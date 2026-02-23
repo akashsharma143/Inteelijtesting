@@ -14,6 +14,6 @@ public class Helloworld {
     }
      @GetMapping("/message1")
     public String getMessage12() {
-        return "Message for the Merge Conflict";
+        return "akash Conflict";
     }
 }
